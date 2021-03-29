@@ -55,7 +55,7 @@ function setup() {
   block21=new BlueBox(800,205,30,40);
 
   block22=new GreenBox(800,205-40,30,40);
-  block23=new GreenBox(800,205-40,30,40);
+  block23=new GreenBox(800,205-60,30,40);
   block24=new GreenBox(800,205-40,30,40);
 
   block25=new PinkBox(800,205-80,30,40);
@@ -69,7 +69,7 @@ function setup() {
 
 function draw() {
 
-  background("white"); 
+  background("lightpink"); 
 
   Engine.update(engine);
   
@@ -116,7 +116,7 @@ function draw() {
 
 
   strokeWeight(0);
-  fill("white");
+  fill("black");
   textSize(22);
   text("Drag the Hexagonal Stone and Release it, to launch it towards the blocks",150,30);
   
